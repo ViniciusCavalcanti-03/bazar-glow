@@ -35,18 +35,16 @@ const Checkout = () => {
 }
 
     return(
-   <main className="bg-stone-200 h-[calc(100dvh-5rem)]">
-    <p className="text-center text-2xl font-bold text-slate-950 pt-8">
-        Finalizar compra
-      </p>
-      <form onSubmit={handleSubmit} className="grid grid-rows-[max-content_1fr_1fr_1fr_1fr_1fr] grid-cols-3 grid-flow-col gap-4 h-3/4 mt-5 px-8">
+   <main className="bg-stone-200 min-h-[calc(100dvh-5rem)] md:h-[calc(100dvh-5rem)] pb-8">
+  <p className="text-center text-2xl font-bold text-slate-950 pt-8">Finalizar compra</p>
+  <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-5 px-4 md:grid md:grid-rows-[max-content_1fr_1fr_1fr_1fr_1fr] md:grid-cols-3 md:grid-flow-col md:px-8 md:h-3/4">
         <p className="text-center text-sm font-bold text-slate-950">Seus dados</p>
 
         <FormInput fieldType='text' fieldName= 'Nome' id='name' placeholder= 'João' required/>
         <FormInput fieldType='text' fieldName= 'Sobrenome' id='surname' placeholder= 'Ribeiro' required/>
         <FormInput fieldType='tel' fieldName= 'Telefone' id='phone' placeholder= '(99) 99999-9999' required/>
 
-        <p className="text-center text-sm font-bold text-slate-950 row-start-1">Pagamento e entrega</p>
+        <p className="text-center text-sm font-bold text-slate-950 md:row-start-1">Pagamento e entrega</p>
 
         <FormInput fieldType='text' fieldName= 'CEP' id='postal-code' placeholder= '00000-000' required/>
         <FormInput fieldType='text' fieldName= 'Rua/Avenida' id='road' placeholder= 'Rua Gonçalo de Carvalho' required/>
@@ -60,11 +58,11 @@ const Checkout = () => {
           <FormInput fieldType='text' fieldName= 'Estado' id='state' placeholder= 'Pernambuco' className="w-1/2" required/>
         </div>
 
-        <p className="text-center text-sm font-bold text-slate-950 row-start-1">Seus produtos</p>
-        <section className="row-span-4 p-2 bg-neutral-100 rounded-md overflow-auto">
+        <p className="text-center text-sm font-bold text-slate-950 md:row-start-1">Seus produtos</p>
+        <section className="md:row-span-4 max-h-96 p-2 bg-neutral-100 rounded-md overflow-auto">
           <CartProducts isHomePage={false}/>
         </section>
-        <section className="row-span-1 flex flex-col gap-2" >
+        <section className="md:row-span-1 flex flex-col gap-2" >
           <TotalPriceCell/>
           <button className="bg-pink-600 text-slate-100 rounded-md p-1 hover:bg-pink-700 text-center">Finalizar Compra</button>
         </section>
