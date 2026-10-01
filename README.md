@@ -96,9 +96,9 @@ magazineR/
 │   │   │   ├── ProductCard.jsx
 │   │   │   └── ImageLightbox.jsx  # galeria de fotos ampliadas
 │   │   ├── CheckoutPage/
-│   │   │   ├── Checkout.jsx
-│   │   │   └── WppRedirect.jsx    # monta o link do WhatsApp
-│   │   └── PurchaseHistory/
+│   │      ├── Checkout.jsx
+│   │      └── WppRedirect.jsx    # monta o link do WhatsApp
+│   │   
 │   ├── utilitarios/
 │   │   ├── catalog.js             # catálogo de produtos
 │   │   └── FormInput.jsx          # campo de formulário reutilizável
@@ -224,7 +224,7 @@ O site é hospedado gratuitamente na **Vercel**, conectada a este repositório:
 
 ## 📚 Aprendizados
 
-Este projeto foi desenvolvido a partir de um projeto base do curso *JavaScript Impressionador* (Hashtag Treinamentos) e adaptado para uma necessidade real, com identidade visual própria, galeria de fotos, integração com WhatsApp, layout mobile e deploy em produção. Pelo caminho, pratiquei:
+Este projeto foi desenvolvido e adaptado para uma necessidade real, com identidade visual própria, galeria de fotos, integração com WhatsApp, layout mobile e deploy em produção. Pelo caminho, pratiquei:
 
 - Componentização e estado global com Context API
 - Roteamento com React Router e filtros via query string
@@ -238,5 +238,7 @@ Este projeto foi desenvolvido a partir de um projeto base do curso *JavaScript I
 
 **Vinicius Cavalcanti**
 GitHub: [@ViniciusCavalcanti-03](https://github.com/ViniciusCavalcanti-03)
+
 Linkedin:[@vinicius-cavalcanti-si](https://www.linkedin.com/in/vinicius-cavalcanti-si/?isSelfProfile=true) 
+
 Desenvolvido com carinho para o Bazar Glow 💗
