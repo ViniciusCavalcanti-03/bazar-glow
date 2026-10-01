@@ -238,5 +238,5 @@ Este projeto foi desenvolvido a partir de um projeto base do curso *JavaScript I
 
 **Vinicius Cavalcanti**
 GitHub: [@ViniciusCavalcanti-03](https://github.com/ViniciusCavalcanti-03)
-
+Linkedin:[@vinicius-cavalcanti-si](https://www.linkedin.com/in/vinicius-cavalcanti-si/?isSelfProfile=true) 
 Desenvolvido com carinho para o Bazar Glow 💗
