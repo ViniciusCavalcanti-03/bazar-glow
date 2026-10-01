@@ -4,6 +4,17 @@ Catálogo online de um bazar de roupas que vende pelo Instagram. As clientes vee
 
 🔗 **Site no ar:** https://bazar-glow.vercel.app
 
+## 📸 Screenshots
+
+### Catálogo
+![Página inicial com o catálogo de produtos](site-photo/Home.png)
+
+### Carrinho
+![Carrinho lateral com os itens e o total](site-photo/Cart.png)
+
+### Checkout
+![Formulário de finalização de compra](site-photo/Checkout.png)
+
 ---
 
 ## 💡 Por que este projeto existe
@@ -237,6 +248,7 @@ Este projeto foi desenvolvido e adaptado para uma necessidade real, com identida
 ## 👨‍💻 Autor
 
 **Vinicius Cavalcanti**
+
 GitHub: [@ViniciusCavalcanti-03](https://github.com/ViniciusCavalcanti-03)
 
 Linkedin:[@vinicius-cavalcanti-si](https://www.linkedin.com/in/vinicius-cavalcanti-si/?isSelfProfile=true) 
