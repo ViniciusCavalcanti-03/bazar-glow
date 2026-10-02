@@ -18,7 +18,10 @@ Catálogo online de um bazar de roupas que vende pelo Instagram. As clientes vee
 ---
 
 ## 📸 Tela mobile
-(Bazar.gif)
+
+![Demonstração do site Bazar Glow](Bazar.gif)
+
+---
 
 ## 💡 Por que este projeto existe
 
@@ -229,7 +232,6 @@ O site é hospedado gratuitamente na **Vercel**, conectada a este repositório:
 ## 📈 Possíveis melhorias futuras
 
 - Controle de estoque, marcando peças vendidas como indisponíveis.
-- Persistência do carrinho no navegador.
 - Busca por nome de peça e filtro por tamanho.
 - Painel simples para cadastrar produtos sem editar o código.
 - Cálculo de frete por CEP.
