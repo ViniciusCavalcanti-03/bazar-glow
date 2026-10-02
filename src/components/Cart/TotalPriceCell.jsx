@@ -10,14 +10,23 @@ function CaulculateTotalPrice(cartObject){
      return price
 }
 
-const TotalPriceCell = () => {
-    const{cartItems} = useCartContext()
+const TotalPriceCell = ({ variant = "default" }) => {
+    const { cartItems } = useCartContext()
     const totalPrice = CaulculateTotalPrice(cartItems)
-    return(
-        <section className="flex bg-slate-200 p-1 text-green-700 rounded-md justify-evenly ">
+
+    if (variant === "cart") {
+        return (
+            <div className="flex items-baseline justify-between">
+                <p className="text-lg font-semibold">Total</p>
+                <p className="text-lg font-semibold">{`R$${totalPrice}`}</p>
+            </div>
+        )
+    }
+
+    return (
+        <section className="flex justify-evenly rounded-md bg-slate-200 p-1 text-slate-950">
             <p>Total: </p>
             <p>{`R$${totalPrice}`}</p>
-            
         </section>
     )
 }

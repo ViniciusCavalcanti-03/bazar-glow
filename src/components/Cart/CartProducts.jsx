@@ -10,7 +10,7 @@ const CartProducts = ({isHomePage = true}) => {
     }
 
     return (
-    <section className={`flex flex-col justify-start overflow-auto gap-2 ${isHomePage? "h-3/5": ""}`}>
+    <section className={`flex flex-col justify-start gap-2 overflow-auto ${isHomePage ? "min-h-0 flex-1 px-5 py-4" : ""}`}>
         {cartItemsArray.map((product) => {
           return isHomePage? <CartItem {...product} key={`key_${product.id}`}/> : <SimpleCartItem {...product} key={`key_${product.id}`}/>
 

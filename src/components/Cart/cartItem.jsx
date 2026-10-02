@@ -20,7 +20,7 @@ const CartItem = ({ id }) => {
                 <p className="text-sm text-slate-950">{name}</p>
                 <p className="text-xs text-slate-400">{brand}</p>
                 <p className="text-xs text-slate-400">{size}</p>
-                <p className="text-lg text-green-700">R${price}</p>
+                <p className="text-lg text-slate-950">R${price}</p>
             </div>
         </article>
     )
