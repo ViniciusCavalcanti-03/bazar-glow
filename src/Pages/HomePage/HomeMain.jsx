@@ -6,7 +6,7 @@ const HomeMain = () =>{
     const[searchParams,setSearchParams] = useSearchParams()
 return (
     <>
-        <ProductFilter  setSearchParams={setSearchParams}/>
+        <ProductFilter setSearchParams={setSearchParams} current={searchParams.get('filterby')} />
         <ProductsContainer searchParams={searchParams} /> 
     </>
     

@@ -20,7 +20,7 @@ const CartOverlay = () =>{
                 </div>
                 <CartProducts />
                 <TotalPriceCell />
-                <Link to="/checkout" className="bg-pink-600 text-white rounded-sm p-1 hover:bg-pink-700 text-center">Finalizar compra</Link>
+                <Link to="/checkout" className="bg-brand-600 text-white rounded-sm p-1 hover:bg-brand-700 text-center">Finalizar compra</Link>
             </section>
             
 

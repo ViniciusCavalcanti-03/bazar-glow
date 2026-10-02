@@ -6,7 +6,7 @@ import { useLocation,Link } from 'react-router-dom';
 const Header = () => {
      const {pathname} = useLocation()
      const completeHeader = (   
-        <header className='flex text-xl sticky top-0 shadow-xl shadow-slate-400 bg-white text-stone-400 px-8 py-4 items-end justify-between text-base z-10'>
+        <header className='flex text-xl sticky top-0 shadow-lg shadow-slate-400 border-b border-stone-200 bg-white/90 text-stone-400 px-8 py-4 items-end justify-between text-base z-10'>
             <Link to="/">
 
             <img className='h-16 px-2' src={logo} alt=" Logo da Bazar." />
