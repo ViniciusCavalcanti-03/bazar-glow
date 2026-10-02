@@ -17,6 +17,9 @@ Catálogo online de um bazar de roupas que vende pelo Instagram. As clientes vee
 
 ---
 
+## 📸 Tela mobile
+(Bazar.gif)
+
 ## 💡 Por que este projeto existe
 
 Este projeto nasceu de uma necessidade real. Minha namorada tem um bazar de roupas no Instagram e, até então, as clientes só descobriam o que estava disponível acompanhando stories e posts. Isso trazia dois problemas:
