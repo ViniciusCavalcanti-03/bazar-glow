@@ -18,7 +18,7 @@ const ProductFilter = ({ setSearchParams, current }) => {
     }
 
     return (
-        <section className="flex flex-wrap justify-center gap-2 px-4 py-6">
+        <section className="flex flex-nowrap justify-center gap-1.5 px-2 py-6 md:gap-2 md:px-4">
             {options.map((o) => (
                 <div key={o.id}>
                     <input
@@ -31,12 +31,13 @@ const ProductFilter = ({ setSearchParams, current }) => {
                     />
                     <label
                         htmlFor={o.id}
-                        className={`cursor-pointer rounded-full border px-4 py-2 text-sm transition ${
+                        className={`cursor-pointer whitespace-nowrap rounded-full border px-3 py-2 text-xs transition md:px-4 md:text-sm ${
                             selected === o.id
                                 ? 'border-brand-700 bg-brand-700 text-white'
                                 : 'border-brand-200 bg-white text-stone-600 hover:border-brand-500'
                         }`}
                     >
+                    
                         {o.label}
                     </label>
                 </div>
