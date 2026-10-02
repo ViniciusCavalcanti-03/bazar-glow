@@ -9,7 +9,7 @@ const SimpleCartItem = ({id, amount}) => {
             <p className="text-slate-950 text-sm">{name}</p>
             <p className="text-slate-400 text-xs">{brand}</p>
             <p className="text-slate-400 text-xs">{size}</p>
-            <p className="text-green-700 text-lg">R${price}</p>
+            <p className="text-slate-950 text-lg">R${price}</p>
             <div className="flex text-slate-950 absolute right-2 bottom-0 mb-2">
                <p className="p-2 w-8 mx-auto">{amount}</p>
               
