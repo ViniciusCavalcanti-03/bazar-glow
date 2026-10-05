@@ -1,6 +1,5 @@
 import UserButtons from './UserButtons';
 import logo from '../assets/logo/julia-outlet.svg';
-import topo from '../assets/logo/Seus-achadinhos.png'
 import { useLocation,Link } from 'react-router-dom'; 
 
 const Header = () => {

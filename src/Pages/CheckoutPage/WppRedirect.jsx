@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "55081987431409" // 55 + DDD + número, sem +, espaços ou traços
+const WHATSAPP_NUMBER = "55081996638103" // 55 + DDD + número, sem +, espaços ou traços
 
 export const buildWhatsappLink = (customer, products) => {
   const total = products.reduce((sum, p) => sum + p.price * p.quantity, 0)

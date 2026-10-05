@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 const INSTAGRAM_USER = "bazarglowww"   // sem o @
-const WHATSAPP_NUMBER = "5581987431409"     // 55 + DDD sem zero + número
+const WHATSAPP_NUMBER = "5581996638103"     // 55 + DDD sem zero + número
 const WHATSAPP_MESSAGE = "Olá! Vim pelo site do Bazar Glow."
 
 const Footer = () => (
